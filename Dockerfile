@@ -4,7 +4,6 @@
 # will overrides the default image.
 ARG BASE_IMAGE="nginx:latest"
 FROM ${BASE_IMAGE}
-WORKDIR /app
 
 # TODO env configured in future release
 ARG APP_ENV="dev"
